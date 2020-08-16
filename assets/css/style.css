@@ -10,19 +10,128 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 /* Global styles
 ------------------------------------*/
 :root {
+    --header-font-light: #fff;
+    --header-font-black: #000;
+    --light-grey:#bfbeaa;
+    --light-blue:  azure;
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/* HEADER STYLE SECTION
+-----------------------------------------*/
+header {
+    padding: 20px 35px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header .name{
+    background-color: var(--light-blue);
+    width: 400px;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0 2% 0 0;
+    font-size: 36px;
+    color: var(--header-font-black);
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--header-font-light);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-  
+  header nav ul li a:hover {
+    background: var(--light-blue);
+    color: var(--header-font-black);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+
+/* FOOTER STYLE SECTION
+-----------------------------------------*/
+
+
+
+/* UTILITY STYLES
+-----------------------------------------*/
+
+
+
+/* HERO STYLE START 
+-----------------------------------------*/
+.hero {
+    background-image: url('../images/portfolio-hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hero-subtitle {
+    border: 3px solid #024e76;
+    background-color: #c4f4ff;
+    padding: 20px;
+    color: #024e76;
+    width: 25%;
+    height: 15%;
+    margin: 0 3.5% 3.5% 0;
+}
+.hero img  {
+    width: 25%;
+    margin: 3.5% 3.5% 0 0;
+}
+
+
+
+/* ABOUT ME STYLES START 
+-----------------------------------------*/
+
+
+
+
+/* PROJECTS STYLES START 
+-----------------------------------------*/
+
+
+
+/* FOOTER-CONTACT INFO STYLES START 
+-----------------------------------------*/
