@@ -16,7 +16,7 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
     --light-blue: azure;
     --primary-color: #fce138;
     --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --tertiary-color: #2f7c85;
 }
 
 * {
@@ -103,7 +103,7 @@ header nav ul li a:hover {
 }
 
 .section-group {
-    display: inline-flex;
+    display: flex;
     margin: 50px 50px;
 }
 
@@ -286,7 +286,9 @@ header nav ul li a:hover {
     align-items: center;
     margin: 0 50px;
 }
-
+.bio-conatct {
+    margin: auto;
+}
 .bio nav {
     margin: 7px 0;
 }
@@ -300,9 +302,17 @@ header nav ul li a:hover {
 }
 
 .bio nav ul li a {
+    color: var(--tertiary-color);
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    text-decoration: none;
+}
+.bio nav ul li a:visited {
+    color:var(--tertiary-color);
+}
+.bio nav ul li a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
