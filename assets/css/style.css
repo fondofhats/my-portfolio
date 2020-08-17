@@ -1,12 +1,5 @@
-/*
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-*/
+
+
 /* Global styles
 ------------------------------------*/
 :root {
@@ -242,10 +235,6 @@ header nav ul li a:hover {
     background: #000;
 }
 
-.box:hover .imgbx {
-    /* transform: translateY(-50px); */
-}
-
 .imgbx img {
     max-height: 100%;
     transition: 0.5s;
@@ -315,6 +304,7 @@ header nav ul li a:hover {
 .bio nav ul li a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
